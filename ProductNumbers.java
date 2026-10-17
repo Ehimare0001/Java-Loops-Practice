@@ -1,0 +1,21 @@
+//9. Find the product of numbers from 1 to 10.
+
+public class ProductNumbers{
+
+  public static void main(String[]args) {
+  
+    int product = 1;
+    
+    for( int index = 1; index <= 10; index++) {
+    
+      product = product * index;
+      
+      
+      System.out.println(product);
+    }
+  
+  
+  
+  }
+
+}
